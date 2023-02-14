@@ -1,6 +1,6 @@
 # Program to check if a number is prime or not
 
-num = 30
+num = 32
 
 # To take input from the user
 #num = int(input("Enter a number: "))
@@ -13,7 +13,7 @@ if num == 1:
 elif num > 1:
     # check for factors
     for i in range(2, num):
-        if (num % i) == 0:
+        if (num % f) == 0:
             # if factor is found, set flag to True
             flag = True
             # break out of loop
